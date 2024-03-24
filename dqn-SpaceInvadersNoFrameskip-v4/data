@@ -4,9 +4,9 @@
         ":serialized:": "gAWVMAAAAAAAAACMHnN0YWJsZV9iYXNlbGluZXMzLmRxbi5wb2xpY2llc5SMCUNublBvbGljeZSTlC4=",
         "__module__": "stable_baselines3.dqn.policies",
         "__doc__": "\n    Policy class for DQN when using images as input.\n\n    :param observation_space: Observation space\n    :param action_space: Action space\n    :param lr_schedule: Learning rate schedule (could be constant)\n    :param net_arch: The specification of the policy and value networks.\n    :param activation_fn: Activation function\n    :param features_extractor_class: Features extractor to use.\n    :param normalize_images: Whether to normalize images or not,\n         dividing by 255.0 (True by default)\n    :param optimizer_class: The optimizer to use,\n        ``th.optim.Adam`` by default\n    :param optimizer_kwargs: Additional keyword arguments,\n        excluding the learning rate, to pass to the optimizer\n    ",
-        "__init__": "<function CnnPolicy.__init__ at 0x7de74a7dcc10>",
+        "__init__": "<function CnnPolicy.__init__ at 0x789126cf0c10>",
         "__abstractmethods__": "frozenset()",
-        "_abc_impl": "<_abc._abc_data object at 0x7de74a9bfc00>"
+        "_abc_impl": "<_abc._abc_data object at 0x789126cd7480>"
     },
     "verbose": 1,
     "policy_kwargs": {},
@@ -84,13 +84,13 @@
         "__module__": "stable_baselines3.common.buffers",
         "__annotations__": "{'observations': <class 'numpy.ndarray'>, 'next_observations': <class 'numpy.ndarray'>, 'actions': <class 'numpy.ndarray'>, 'rewards': <class 'numpy.ndarray'>, 'dones': <class 'numpy.ndarray'>, 'timeouts': <class 'numpy.ndarray'>}",
         "__doc__": "\n    Replay buffer used in off-policy algorithms like SAC/TD3.\n\n    :param buffer_size: Max number of element in the buffer\n    :param observation_space: Observation space\n    :param action_space: Action space\n    :param device: PyTorch device\n    :param n_envs: Number of parallel environments\n    :param optimize_memory_usage: Enable a memory efficient variant\n        of the replay buffer which reduces by almost a factor two the memory used,\n        at a cost of more complexity.\n        See https://github.com/DLR-RM/stable-baselines3/issues/37#issuecomment-637501195\n        and https://github.com/DLR-RM/stable-baselines3/pull/28#issuecomment-637559274\n        Cannot be used in combination with handle_timeout_termination.\n    :param handle_timeout_termination: Handle timeout termination (due to timelimit)\n        separately and treat the task as infinite horizon task.\n        https://github.com/DLR-RM/stable-baselines3/issues/284\n    ",
-        "__init__": "<function ReplayBuffer.__init__ at 0x7de74a905fc0>",
-        "add": "<function ReplayBuffer.add at 0x7de74a906050>",
-        "sample": "<function ReplayBuffer.sample at 0x7de74a9060e0>",
-        "_get_samples": "<function ReplayBuffer._get_samples at 0x7de74a906170>",
-        "_maybe_cast_dtype": "<staticmethod(<function ReplayBuffer._maybe_cast_dtype at 0x7de74a906200>)>",
+        "__init__": "<function ReplayBuffer.__init__ at 0x789126e19fc0>",
+        "add": "<function ReplayBuffer.add at 0x789126e1a050>",
+        "sample": "<function ReplayBuffer.sample at 0x789126e1a0e0>",
+        "_get_samples": "<function ReplayBuffer._get_samples at 0x789126e1a170>",
+        "_maybe_cast_dtype": "<staticmethod(<function ReplayBuffer._maybe_cast_dtype at 0x789126e1a200>)>",
         "__abstractmethods__": "frozenset()",
-        "_abc_impl": "<_abc._abc_data object at 0x7de74aa8b100>"
+        "_abc_impl": "<_abc._abc_data object at 0x789126f9c680>"
     },
     "replay_buffer_kwargs": {},
     "train_freq": {
