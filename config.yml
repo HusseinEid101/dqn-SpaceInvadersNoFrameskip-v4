@@ -18,7 +18,7 @@
   - - learning_starts
     - 100000
   - - n_timesteps
-    - 100000.0
+    - 1000000.0
   - - optimize_memory_usage
     - false
   - - policy

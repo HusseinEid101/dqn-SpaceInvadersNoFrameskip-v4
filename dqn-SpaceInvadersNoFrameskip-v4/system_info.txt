@@ -2,7 +2,7 @@
 - Python: 3.10.12
 - Stable-Baselines3: 2.3.0a4
 - PyTorch: 2.2.1+cu121
-- GPU Enabled: False
+- GPU Enabled: True
 - Numpy: 1.25.2
 - Cloudpickle: 2.2.1
 - Gymnasium: 0.29.1

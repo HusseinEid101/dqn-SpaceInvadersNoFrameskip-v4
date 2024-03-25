@@ -16,7 +16,7 @@ model-index:
       type: SpaceInvadersNoFrameskip-v4
     metrics:
     - type: mean_reward
-      value: 329.00 +/- 157.97
+      value: 743.50 +/- 220.47
       name: mean_reward
       verified: false
 ---
@@ -72,7 +72,7 @@ OrderedDict([('batch_size', 32),
              ('gradient_steps', 1),
              ('learning_rate', 0.0001),
              ('learning_starts', 100000),
-             ('n_timesteps', 100000.0),
+             ('n_timesteps', 1000000.0),
              ('optimize_memory_usage', False),
              ('policy', 'CnnPolicy'),
              ('target_update_interval', 1000),
